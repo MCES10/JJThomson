@@ -12,6 +12,19 @@
   height: 50%;
   width: 50%;
 }
+    @keyframes customAni {
+  0%,
+  50%,
+  100% {
+	opacity: 1;
+  }
+
+  25%,
+  75% {
+	opacity: 0;
+  }
+}
+    animation: customAni 2s ease 0s infinite normal none;
   </style>
 </head>
 
@@ -31,8 +44,8 @@
  <label for="checkbox_toggle" class="hamburger">&#9776;</label>
  <!-- NAVIGATION MENUS -->
  <div class="menu">
- <li><a href="index.html">Previous</a></li>
-  <li><a href="terms.html">Next</a></li>
+ <li><a href="index.html" class="customani">Previous</a></li>
+  <li><a href="terms.html" class="customani">Next</a></li>
  </div>
  </ul>
  </nav>
