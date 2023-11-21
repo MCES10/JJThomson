@@ -266,6 +266,7 @@ background: linear-gradient(90deg, rgba(255,253,0,1) 16%, rgba(0,212,255,1) 54%,
 .menu-bar {
   background-color: #333;
   overflow: hidden;
+  position: fixed;
 }
 
 .menu-bar a {
