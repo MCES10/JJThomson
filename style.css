@@ -71,7 +71,7 @@ backdrop-filter: blur(20px);
  position: absolute; /*WITH RESPECT TO PARENT*/
  display: none;
  border-radius: 8px;
- top: 35px;
+ bottom: 35px;
 }
 .dropdown li + li {
  margin-top: 10px;
@@ -107,7 +107,7 @@ input[type=checkbox]{
 @media (max-width: 768px) {
 .menu { 
  display:none;
- position: absolute;margin-top: 20px;
+ position: absolute;margin-bottom: 20px;
  background-color: rgb(0 0 0 / 57%);
   border-radius: 16px;
   box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
