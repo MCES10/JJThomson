@@ -260,6 +260,6 @@ h3 {
 }
 
 body {
-  background: rgb(0,0,0);
-  background: linear-gradient(150deg, rgba(0,0,0,1) 0%, rgba(6,6,208,1) 43%, rgba(6,6,227,1) 68%, rgba(0,212,255,1) 89%);
+background: rgb(255,253,0);
+background: linear-gradient(90deg, rgba(255,253,0,1) 16%, rgba(0,212,255,1) 54%, rgba(2,146,55,1) 100%);
 }
