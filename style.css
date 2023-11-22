@@ -260,8 +260,8 @@ h3 {
 }
 
 body {
-background: rgb(255,253,0);
-background: linear-gradient(90deg, rgba(255,253,0,1) 16%, rgba(0,212,255,1) 54%, rgba(2,146,55,1) 100%);
+  background: rgb(0,163,196);
+  background: linear-gradient(90deg, rgba(0,163,196,1) 0%, rgba(107,0,119,1) 73%);
 }
 .menu-bar {
   background-color: rgba(255, 255, 255, 0.23);
